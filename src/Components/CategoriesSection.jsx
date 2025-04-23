@@ -1,11 +1,15 @@
 import { useState } from 'react';
+import women from '../assets/women.jpg';
+import men from "../assets/men.jpg";
+import kids from "../assets/kids.jpg";
+import baby from "../assets/baby.jpg";
 
 const CategoriesSection = () => {
     const categories = [
-      { name: "Women", image: "../src/assets/women.jpg" },
-      { name: "Men", image: "../src/assets/men.jpg" },
-      { name: "Kids", image: "../src/assets/kids.jpg" },
-      { name: "Baby", image: "../src/assets/baby.jpg" },
+      { name: "Women", image: women },
+      { name: "Men", image: men  },
+      { name: "Kids", image: kids  },
+      { name: "Baby", image: baby },
     ];
   
     return (

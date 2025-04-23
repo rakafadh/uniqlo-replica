@@ -1,11 +1,15 @@
 import { useState } from 'react';
+import oversized from '../assets/oversized.jpg';
+import airism from '../assets/airism.jpg';
+import heattech from '../assets/heattech.jpg';
+import lifewear from '../assets/lifewear.jpg';
 
 const FeaturedSection = () => {
     const collections = [
-      { title: "Oversized Collection", image: "../src/assets/oversized.jpg", color: "#ff1200" },
-      { title: "AIRism Technology", image: "../src/assets/airism.jpg", color: "#ff4133" },
-      { title: "HEATTECH Series", image: "../src/assets/heattech.jpg", color: "#ff7166" },
-      { title: "LifeWear Essentials", image: "../src/assets/lifewear.jpg", color: "#ffa099" },
+      { title: "Oversized Collection", image: oversized, color: "#ff1200" },
+      { title: "AIRism Technology", image: airism, color: "#ff4133" },
+      { title: "HEATTECH Series", image: heattech, color: "#ff7166" },
+      { title: "LifeWear Essentials", image: lifewear, color: "#ffa099" },
     ];
   
     return (
